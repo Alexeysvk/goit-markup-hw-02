@@ -1,0 +1,116 @@
+body {
+    font-family: "Roboto";
+    color: #212121, 100 %;
+}
+
+/* wecstudio-section-main*/
+
+.first-text-section-studio h3{
+    color: var(--h3-text--color);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+}
+.first-text-section-studio p{
+    color: var(--p-text-color)
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em
+}
+
+
+/* what we doo section*/
+
+.first-section-title {
+    color: var(--h3-text--color);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* our team section*/
+.second-section-title {
+    color: var(--h3-text--color);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.second-section-text
+
+
+
+
+
+
+
+
+.main-section-head {
+    background: #2F303A, 100 %;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+}
+.main-section-head-text {
+    text-transform: uppercase;
+    text-align: center;
+}
+.main-section-head-button {
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+}
+
+.link:hover {
+color: #2196F3, 100 %, 100 %;
+}
+
+.link:focus {
+ color: #2196F3, 100 %;
+}
+/*buttons on portfolio pg*/
+.portfolio-head {
+    color: #F5F4FA, 100 %
+}
+.portfolio-head-buttons:hover{
+    color: #2196F3, 100 %;
+}
+
+.portfolio-head-buttons:active {
+    background-color: #2196F3, 100 %;
+}
+/*root-section-css*/
+:root {
+    --text-all: #757575, 100 %
+}
+:root {
+    --background-color-portfolio: #E5E5E5;
+}
+:root {
+    --background-color-first-section-webstudio-footer: #2F303A, 100 %;
+}
+:root {
+    --background-color-what-we-do-section: #2F303A, 100 %;
+}
+:root {
+    --background-color-our-team-section: #F5F4FA, 100 % ;
+}
+:root {
+    --h3-text--color: #212121, 100 %;
+}
+:root {
+    --p-text-color: #757575, 100 %;
+}
