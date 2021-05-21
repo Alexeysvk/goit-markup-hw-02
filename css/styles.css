@@ -1,15 +1,17 @@
 body {
-    font-family: "Roboto" [,"Raleway"];
+    font-family: "Roboto", "Raleway";
     color: #212121, 100 %;
     }
 
-/* wecstudio-section-main*/
-    .main-section-head-text{
+    /* wecstudio-section-main*/
+    /* надо ли здесь ставить белый цвет шрифта, если его (пока что) не будет видно на макете?*/
+    .main-section-tittle-text{
+        color: var(--main-tittle-text-color);
         font-family: Roboto;
         font-style: normal;
-        font-weight: 900;
+        font-weight: bold;
         font-size: 44px;
-        line-height: 60px;
+        line-height: 1.3;
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
@@ -20,13 +22,13 @@ body {
         font-style: normal;
         font-weight: bold;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 1.1;
         letter-spacing: 0.03em;
 }
 .first-text-section-studio p{
         color: var(--text-allcolor)
         font-size: 14px;
-        line-height: 24px;
+        line-height: 1.7;
         letter-spacing: 0.03em
     }
 
@@ -38,7 +40,7 @@ body {
         font-style: normal;
         font-weight: bold;
         font-size: 36px;
-        line-height: 42px;
+        line-height: 1.1;
         text-align: center;
         letter-spacing: 0.03em;
     }
@@ -49,7 +51,7 @@ body {
         font-style: normal;
         font-weight: bold;
         font-size: 36px;
-        line-height: 42px;
+        line-height: 1.1;
         text-align: center;
         letter-spacing: 0.03em;
     }
@@ -59,14 +61,14 @@ body {
         font-style: normal;
         font-weight: bold;
         font-size: 16px;
-        line-height: 19px;
+        line-height: 1.1;
         text-align: center;
         letter-spacing: 0.03em;
     }
     .second-section-text p{
         color: var(--text-all);
         font-size: 16px;
-        line-height: 19px;
+        line-height: 1.1;
         text-align: center;
         letter-spacing: 0.03em;
     }
@@ -78,74 +80,69 @@ body {
         font-style: normal;
         font-weight: bold;
         font-size: 18px;
-        line-height: 36px;
+        line-height: 2;
         letter-spacing: 0.06em;
         }
 
     .portfolio-images-text p{
         color: var(--text-all);
         font-size: 16px;
-        line-height: 30px;
+        line-height: 1.9;
         letter-spacing: 0.03em;
     }
 
-
-
-
 /* links */
 
-    a:hover {
-        color: #2196F3; (0,0,0,0);
+    .link:hover {
+        color: var(--buttons-active-color); (0,0,0,0);
     }
-    a:active{
-        color: #2196F3; (0,0,0,0);
+    .link:active{
+        color: var(--buttons-active-color); (0,0,0,0);
     }
-    a:focus {
-        color: #2196F3, 100 %; (0,0,0,0);
+    .link:focus {
+        color: var(--buttons-active-color), 100 %; (0,0,0,0);
     }
 
 /*buttons on portfolio pg*/
-    button {
+    .buttons {
         background: #F5F4FA;
         color: var(--tittle-text--color);
     }
-    button:hover{
-        background: #2196F3; (0,0,0,0);
-        color: #FFFFFF;
+    .buttons:hover{
+        background: var(--buttons-active-color); (0,0,0,0);
+        color: var(--main-tittle-text-color);
     }
-    button:focus {
-        background: #2196F3; (0,0,0,0);
-        color: #FFFFFF;
+    .buttons:focus {
+        background: var(--buttons-active-color); (0,0,0,0);
+        color: var(--main-tittle-text-color);
     }
-    button:active {
-        background: #2196F3; (0,0,0,0);
-        color: #FFFFFF;
+    .buttons:active {
+        background: var(--buttons-active-color); (0,0,0,0);
+        color: var(--main-tittle-text-color);
     }
-    button{
+    .buttons{
         cursor: pointer;
     }
     
 /* studio button pg*/
     .studio-button{
-    background: #2196F3;
-    color: #FFFFFF;
+    background: var(--buttons-active-color);
+    color: var(--main-tittle-text-color);
+    }
+    .studio-button{
+        cursor: pointer;
     }
 /*root-section-css*/
     :root {
-        --text-all: #757575, 100 %
+        --main-tittle-text-color:  #FFFFFF;
     }
     :root {
-        --background-color-portfolio: #E5E5E5;
+        --text-all:  #757575;
+    }
     }
     :root {
-        --background-color-first-section-webstudio-footer: #2F303A, 100 %;
+        --tittle-text--color:  #212121;
     }
     :root {
-        --background-color-what-we-do-section: #2F303A, 100 %;
-    }
-    :root {
-        --background-color-our-team-section: #F5F4FA, 100 % ;
-    }
-    :root {
-        --tittle-text--color: #212121, 100 %;
+        --buttons-active-color:  #2196F3;
     }
