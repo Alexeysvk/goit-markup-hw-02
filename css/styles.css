@@ -1,6 +1,6 @@
 body {
     font-family: "Roboto", "Raleway";
-    color: #212121, 100 %;
+    color: var(--tittle-text--color);
     }
 
     /* wecstudio-section-main*/
