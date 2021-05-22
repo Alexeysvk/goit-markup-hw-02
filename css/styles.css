@@ -136,6 +136,10 @@ body {
     .studio-button{
         cursor: pointer;
     }
+
+    .logo {
+        font-family: "Raleway";
+    }
 /*root-section-css*/
     :root {
         --main-tittle-text-color:  #FFFFFF;
