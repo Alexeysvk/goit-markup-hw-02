@@ -90,6 +90,10 @@ body {
         line-height: 1.9;
         letter-spacing: 0.03em;
     }
+/* footer adress*/
+.adress-in-foot{
+    font-style: normal;
+}
 
 /* links */
 
