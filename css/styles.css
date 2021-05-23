@@ -125,8 +125,12 @@ body {
   color: var(--tittle-text--color);
 }
 
-.link:hover 
-.link:active
+.link:hover {
+    color: var(--buttons-active-color);
+  }
+.link:active{
+    color: var(--buttons-active-color);
+  }
 .link:focus {
   color: var(--buttons-active-color);
 }
@@ -134,8 +138,12 @@ body {
 .link-adress {
   color: var(--text-all);
 }
-.link-adress:hover 
-.link-adress:active 
+.link-adress:hover{
+    color: var(--buttons-active-color);
+  } 
+.link-adress:active{
+    color: var(--buttons-active-color);
+  } 
 .link-adress:focus {
   color: var(--buttons-active-color);
 }
